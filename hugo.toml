@@ -1,8 +1,25 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
-theme = 'ananke'
+baseURL = "https://marc-mm27.github.io/Hugo/"
+languageCode = "ca"
+title = "La web d'en Marc"
+defaultContentLanguage = "ca"
+enableRobotsTXT = true
 
-[caches]
-    [caches.images]
-        dir = ':cacheDir/images'
+[params]
+  description = "La web personal d'en Marc"
+  author = "Marc"
+
+[menu]
+  [[menu.main]]
+    name = "Inici"
+    pageRef = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Articles"
+    pageRef = "/posts"
+    weight = 2
+
+  [[menu.main]]
+    name = "Sobre mi"
+    pageRef = "/sobre-mi"
+    weight = 3
