@@ -1,25 +1,13 @@
-baseURL = "https://marc-mm27.github.io/Hugo/"
-languageCode = "ca"
-title = "La web d'en Marc"
-defaultContentLanguage = "ca"
-enableRobotsTXT = true
+baseURL = 'https://marc-mm27.github.io/Hugo/'
+languageCode = 'es-es'
+title = 'Nombre de tu Sitio Web'
 
 [params]
-  description = "La web personal d'en Marc"
-  author = "Marc"
-
-[menu]
-  [[menu.main]]
-    name = "Inici"
-    pageRef = "/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Articles"
-    pageRef = "/posts"
-    weight = 2
-
-  [[menu.main]]
-    name = "Sobre mi"
-    pageRef = "/sobre-mi"
-    weight = 3
+  # Subtítulo o texto que aparece bajo el título principal
+  description = 'Una breve descripción o frase de bienvenida'
+  
+  # Imagen de fondo para el encabezado (debes guardarla en static/images/)
+  featured_image = '/images/gohugo-default-sample-hero-image.jpg'
+  
+  # Color de fondo de la barra de navegación o cabecera
+  background_color_class = 'bg-black'
